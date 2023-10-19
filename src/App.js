@@ -1,8 +1,15 @@
 import './App.css';
 import "bootstrap/dist/css/bootstrap.min.css"
 import React, {Component} from 'react';
-
-let qBank = []
+import Question from "./components/question.js"
+let qBank = [
+  {
+  id: 1,
+  question: "What is my name?",
+  options: ["will","bill","William"],
+  answer: "William",
+  }
+]
 class App extends Component {
   constructor(props){
     super(props);
@@ -12,7 +19,6 @@ class App extends Component {
       selectedOption: "",
       score: 0,
       quizEnd: false,
-
     };
   }
 
@@ -52,9 +58,14 @@ class App extends Component {
     <div className="App">
       <h1>Quiz App</h1>
       {!quizEnd ? (
-      <></>
+      <Question 
+        question={questionBank[currentQuestion]}
+        selectedOption={selectedOption}
+        onOptionChange={this.handleOptionChange}
+        onSubmit = {this.handleFormSubmit}
+      />
       ) : (
-      <></>
+      <>final score here</>
       )}
     </div>);
   }
