@@ -8,7 +8,14 @@ let qBank = [
   question: "What is my name?",
   options: ["will","bill","William"],
   answer: "William",
+  },
+  {
+    id: 2,
+    question: "What is my name?",
+    options: ["will","bill","William"],
+    answer: "William",
   }
+  
 ]
 class App extends Component {
   constructor(props){
