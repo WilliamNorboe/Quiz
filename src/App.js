@@ -3,7 +3,9 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import React, {Component} from 'react';
 import Question from "./components/question.js";
 
-import Score from "./components/score.js";
+import Score from "./components/scored.js";
+
+
 
 let qBank = [
   {
@@ -56,6 +58,14 @@ class App extends Component {
         selectedOption: "",
       }))
     }
+    else if(this.state.quizEnd){
+      this.setState((prevState) => ({
+        quizEnd: false,
+        currentQuestion: 0,
+        selectedOption: "",
+        score: 0,
+      }))
+    }
     else{
       this.setState({
         quizEnd: true,
@@ -75,11 +85,10 @@ class App extends Component {
         onSubmit = {this.handleFormSubmit}
       />
       ) : (
-      <Score
-        score = {score}
-        onNextQuestion={this.handleNextQuestion}
-        className = "score"
-      />
+      <Score        score = {score}
+      onNextQuestion={this.handleNextQuestion}
+      className = "score" />
+
       )}
     </div>);
   }
