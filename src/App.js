@@ -1,7 +1,10 @@
 import './App.css';
-import "bootstrap/dist/css/bootstrap.min.css"
+import "bootstrap/dist/css/bootstrap.min.css";
 import React, {Component} from 'react';
-import Question from "./components/question.js"
+import Question from "./components/question.js";
+
+import Score from "./components/score.js";
+
 let qBank = [
   {
   id: 1,
@@ -72,7 +75,11 @@ class App extends Component {
         onSubmit = {this.handleFormSubmit}
       />
       ) : (
-      <>final score here</>
+      <Score
+        score = {score}
+        onNextQuestion={this.handleNextQuestion}
+        className = "score"
+      />
       )}
     </div>);
   }
