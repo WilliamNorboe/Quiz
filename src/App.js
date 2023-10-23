@@ -2,26 +2,12 @@ import './App.css';
 import "bootstrap/dist/css/bootstrap.min.css";
 import React, {Component} from 'react';
 import Question from "./components/question.js";
-
+import qBank from './components/questionbank';
 import Score from "./components/scored.js";
 
 
 
-let qBank = [
-  {
-  id: 1,
-  question: "What is my name?",
-  options: ["will","bill","William"],
-  answer: "William",
-  },
-  {
-    id: 2,
-    question: "What is my name?",
-    options: ["will","bill","William"],
-    answer: "William",
-  }
-  
-]
+
 class App extends Component {
   constructor(props){
     super(props);
@@ -76,7 +62,7 @@ class App extends Component {
     const {questionBank, currentQuestion, selectedOption, score, quizEnd} = this.state
     return(
     <div className="App">
-      <h1>Quiz App</h1>
+      <h1 className='app-title'>Quiz App</h1>
       {!quizEnd ? (
       <Question 
         question={questionBank[currentQuestion]}
@@ -85,10 +71,10 @@ class App extends Component {
         onSubmit = {this.handleFormSubmit}
       />
       ) : (
-      <Score        score = {score}
+      <Score
+      score = {score}
       onNextQuestion={this.handleNextQuestion}
       className = "score" />
-
       )}
     </div>);
   }
