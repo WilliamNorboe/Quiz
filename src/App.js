@@ -5,8 +5,13 @@ import Question from "./components/question.js";
 import qBank from './components/questionbank';
 import Score from "./components/scored.js";
 
+import sb from "./components/sb.jpg"
 
+// document.body.style = 'background-image: url("./components/sb.jpg");';
+// document.body.style.backgroundImage = sb;
 
+document.body.classList.add("bg-img");
+document.body.classList.add("has-bg-img");
 
 class App extends Component {
   constructor(props){

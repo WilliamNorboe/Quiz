@@ -6,7 +6,7 @@ class Score extends Component {
     render(){
         const { score } = this.props;
         return(
-            <div>
+            <div className="question">
                 <h2>Final Result</h2>
                 <h4>Score: {this.props.score}</h4>
                 <button className="btn btn-primary mt-2" onClick = {this.props.onNextQuestion}>Restart</button>

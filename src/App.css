@@ -1,12 +1,22 @@
-/* body{
-  background-color: black;
+body{
   color: red;
-  background: -moz-linear-gradient();
-} */
+  /* background-image: url("./components/sb.jpg"); */
+
+
+
+  background: url("./components/sb.jpg") no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
 
 .app-title{
   color: black;
   margin-top: 2rem;
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: white;
+
 }
 
 .App{
@@ -14,6 +24,14 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
+}
+
+.question{
+  /* background-color: yellow; */
+  background: rgb(212,218,110);
+  background: linear-gradient(137deg, rgba(212,218,110,1) 3%, rgba(232,235,122,1) 43%, rgba(241,255,107,1) 75%);
+  padding: 10px;
+  border-radius: 20px;
 }
 /* .App {
   text-align: center;
