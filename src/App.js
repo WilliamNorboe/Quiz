@@ -67,7 +67,7 @@ class App extends Component {
     const {questionBank, currentQuestion, selectedOption, score, quizEnd} = this.state
     return(
     <div className="App">
-      <h1 className='app-title'>Quiz App</h1>
+      <h1 className='app-title'>Donkey Kong Country 2 Quiz App</h1>
       {!quizEnd ? (
       <Question 
         question={questionBank[currentQuestion]}
