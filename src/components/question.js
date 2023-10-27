@@ -1,5 +1,5 @@
 import Options from "./option";
-import oatmeal from "./oatmeal.jpg";
+
 function Question(props){
     
     return(
@@ -15,8 +15,9 @@ function Question(props){
                 />
                 <button type = "submit" className="btn btn-primary mt-2">Submit</button>
             </form>
+
+            <img src = {props.question.image} alt = "Question" className="questionImg" />
         </div>
-        <img src = {"./oatmeal.jpg"}/>
     </div>
 
     )

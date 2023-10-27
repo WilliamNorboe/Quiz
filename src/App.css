@@ -45,6 +45,11 @@ h3, h5{
   font-size: 99px;
 }
 
+
+.questionImg{
+  border-radius: 20px;
+  width: 100%;
+}
 /* .App {
   text-align: center;
 }
