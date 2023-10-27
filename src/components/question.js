@@ -1,9 +1,8 @@
 import Options from "./option";
 
 function Question(props){
-    
     return(
-    <div>
+    <>
         <div className="question">
             <h3>Question {props.question.id}</h3>
             <h5 className="mt-2">{props.question.question}</h5>
@@ -18,7 +17,7 @@ function Question(props){
 
             <img src = {props.question.image} alt = "Question" className="questionImg" />
         </div>
-    </div>
+    </>
 
     )
 }

@@ -30,6 +30,7 @@ body{
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  width: 100%;
 }
 
 .question{
@@ -39,11 +40,9 @@ body{
   padding: 10px;
   border-radius: 20px;
   font-size: 25px;
+  width: 50%;
 }
 
-h3, h5{
-  font-size: 99px;
-}
 
 
 .questionImg{
