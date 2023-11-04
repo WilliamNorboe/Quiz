@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/Quiz/static/css/main.edde1a37.css",
+    "main.js": "/Quiz/static/js/main.97b465f2.js",
+    "static/js/787.83904489.chunk.js": "/Quiz/static/js/787.83904489.chunk.js",
+    "static/media/sb.jpg": "/Quiz/static/media/sb.d91be43a02f10f9663cf.jpg",
+    "static/media/Klubba.webp": "/Quiz/static/media/Klubba.80fa3f01fc2b4cee1f1d.webp",
+    "static/media/DixieDKC2.webp": "/Quiz/static/media/DixieDKC2.6e86a769979175b1b295.webp",
+    "static/media/Rambi.webp": "/Quiz/static/media/Rambi.d6300d060fabaf390bc9.webp",
+    "static/media/enemies.webp": "/Quiz/static/media/enemies.6692a12e916ab7333676.webp",
+    "static/media/Banana_Bunch_DKC_artwork.webp": "/Quiz/static/media/Banana_Bunch_DKC_artwork.04cff4281e4345935b0d.webp",
+    "static/media/Mainbrace_Mayhem_Click-Clack.webp": "/Quiz/static/media/Mainbrace_Mayhem_Click-Clack.fa2cbea42cab6347428d.webp",
+    "static/media/island.webp": "/Quiz/static/media/island.06032dabd90aca68bd0c.webp",
+    "static/media/Kaptain_k_rool_1.webp": "/Quiz/static/media/Kaptain_k_rool_1.2861e455a9650675d8b3.webp",
+    "static/media/StartPiratePanic.webp": "/Quiz/static/media/StartPiratePanic.99bc320d23df0a47e83e.webp",
+    "static/media/DKC2_Baloons.webp": "/Quiz/static/media/DKC2_Baloons.0c58b5161096f964037e.webp",
+    "index.html": "/Quiz/index.html",
+    "main.edde1a37.css.map": "/Quiz/static/css/main.edde1a37.css.map",
+    "main.97b465f2.js.map": "/Quiz/static/js/main.97b465f2.js.map",
+    "787.83904489.chunk.js.map": "/Quiz/static/js/787.83904489.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.edde1a37.css",
+    "static/js/main.97b465f2.js"
+  ]
+}
