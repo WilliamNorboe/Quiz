@@ -40,7 +40,7 @@ function App(){
 
       setProps(prevState => {return {
         ...prevState,
-             quizEnd: false,
+        quizEnd: false,
         currentQuestion: 0,
         selectedOption: "",
         score: 0,
